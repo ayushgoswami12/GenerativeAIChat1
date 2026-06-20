@@ -1,0 +1,1 @@
+Set-Content .gitignore ".env`n.venv/`n__pycache__/"; git rm --cached .env -f; git add .; git commit -m "remove env from tracking"; git filter-repo --path .env --invert-paths --force; git remote add origin https://github.com/ayushgoswami12/GenerativeAIChat1.git; git push origin clean_branch --force
