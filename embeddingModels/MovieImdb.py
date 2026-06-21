@@ -47,7 +47,7 @@ final_prompt = prompt.invoke(
 )
 
 model = ChatGroq(model="groq/compound-mini")
-
+#new coding
 response = model.invoke(final_prompt)
 
 print(response.content)
