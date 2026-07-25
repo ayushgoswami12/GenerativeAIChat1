@@ -16,7 +16,7 @@ class Movie(BaseModel):
     cast: List[str]
     rating: Optional[float]
     summary: str
-
+    
 
 parser = PydanticOutputParser(pydantic_object=Movie)
 
